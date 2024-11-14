@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Animated Menu</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Menu Section -->
+    <section class="menu">
+      <!-- Title Section -->
+      <div class="title fade-in">
+        <h2>Explore Our Delicious Menu</h2>
+        <div class="underline"></div>
+      </div>
+
+      <!-- Filter Buttons Section -->
+      <div class="btn-container fade-in">
+        <button type="button" class="filter-btn" data-id="all">All</button>
+        <button type="button" class="filter-btn" data-id="breakfast">Breakfast</button>
+        <button type="button" class="filter-btn" data-id="lunch">Lunch</button>
+        <button type="button" class="filter-btn" data-id="shakes">Shakes</button>
+      </div>
+
+      <!-- Menu Items Section -->
+      <div class="section-center">
+        <!-- Single Menu Item -->
+        <article class="menu-item slide-in">
+          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Buttermilk Pancakes</h4>
+              <h4 class="price">$15</h4>
+            </header>
+            <p class="item-text">
+              Start your day with fluffy pancakes topped with golden syrup and fresh butter, a classic favorite.
+            </p>
+          </div>
+        </article>
+
+        <article class="menu-item slide-in">
+          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Classic Cheeseburger</h4>
+              <h4 class="price">$12</h4>
+            </header>
+            <p class="item-text">
+              Savory beef patty with cheddar cheese, lettuce, and tomato. Served with crispy fries on the side.
+            </p>
+          </div>
+        </article>
+
+        <article class="menu-item slide-in">
+          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Fruit Smoothie</h4>
+              <h4 class="price">$8</h4>
+            </header>
+            <p class="item-text">
+              A refreshing blend of seasonal fruits, perfect for a light and healthy treat.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
